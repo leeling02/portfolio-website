@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Julius+Sans+One&family=Knewave&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Additional styles can be placed here if needed */
+    </style>
+</head>
+
+<body class="bg-gray-900">
+    <div class="flex flex-col">
+        <!-- Navbar -->
+        <div id="navBar" class="bg-[#26212C]">
+            <div id="navBar-content" class="flex">
+              <!-- Profile Image and Title -->
+              <div id="profile-img">
+                <img src="./img/profile_pic.jpg" alt="profile-img" class="rounded-full size-12 m-3 ml-10 mb-0 ">
+              </div>
+              <!-- Navigation Links -->
+              <div class="w-28"></div>
+              <div id="navLink" class="flex m-5 ml-24 space-x-8 md:space-x-44 md:ml-56 md:mt-6 md:pl-14">
+                <a href="#section-2" class="text-white">Projects</a>
+                <a href="#section-3" class=" text-white">Skills</a>
+                <a href="#section-4" class=" text-white">Contact</a>
+              </div>
+            </div>
+            <div id="profile-title" class="">
+              <p class="text-xs text-left m-0 ml-2 text-white">Web Developer</p>
+              <p class="font-knewave text-sm m-0 ml-9 text-left text-white">Lee Ling</p>
+            </div>
+          </div>
+
+        <!-- Sections -->
+        <div id="sections" class="">
+            <!-- Section 1 (Hero) -->
+            <div id="section-1" class="relative">
+                <!-- Hero content -->
+                <img id="hero-img" src="./img/bg.png" alt="background-img" class="z-0 md:w-screen">
+                <div id="hero-content" class="absolute top-0 text-center p-4 md:p-40 z-1 text-white">
+                    <p class="font-archivo text-[#D050EF] text-4xl md:text-7xl">Hello, I am Lee Ling</p>
+                    <p class="font-julius text-base text-[#CBC9CB]">| INTO FRONT END DEVELOPMENTS |</p>
+                    <p class="mt-8 md:mt-16 text-xl md:text-2xl font-julius text-[#FFFFFF]">
+                        A DEVELOPER WHO LOVES TO SOLVE PROBLEMS AT WORK AND IN LIFE.
+                    </p>
+                    <div class="mt-8">
+                        <a href="#section-2"
+                            class="bg-[#F9DA37] border-solid border-2 border-[#64BDEF] p-2 text-black">View
+                            Portfolio</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section 2 (Projects) -->
+            <div id="section-2" class="p-4 md:p-12 text-3xl text-[#D050EF]">
+                <!-- Projects content -->
+                <h2>My Projects</h2>
+                <div class="m-5 ml-28 space-x-5 md:flex md:space-y-0 md:space-x-10">
+                    <a href="https://leeling02.github.io/coffee-landing-page/" target="_blank"
+                        class="text-white active:bg-blue-600 items-center">
+                        <img src="./img/project-1.png" alt="project-sc" class="w-48 h-48 md:w-72 md:h-72">
+                        <button
+                            class="animate-bounce text-xs text-black bg-white font-julius border-solid border-2 border-[#D050EF] p-1 mt-4 ml-12 md:ml-24">
+                            check it out
+                        </button>
+                    </a>
+                    <a href="https://leeling02.github.io/Benefits-of-Meal-Prep/" target="_blank"
+                        class="text-white text-xl font-julius active:bg-blue-600 items-center">
+                        <img src="./img/project-2.png" alt="project-sc" class="w-48 h-48 md:w-72 md:h-72">
+                        <button
+                            class="animate-bounce text-xs text-black bg-white font-julius border-solid border-2 border-[#D050EF] p-1 mt-4 ml-12 md:ml-24">
+                            check it out
+                        </button>
+                    </a>
+                    <a href="https://www.figma.com/proto/0dZIw6pCm3OcPXT3jUg64X/Prototype?node-id=2-6&scaling=scale-down&page-id=0%3A1&mode=design&t=s8XGX0aZJlnsj5Ys-1"
+                        target="_blank" class="text-white active:bg-blue-600 items-center">
+                        <img src="./img/project-3.png" alt="project-sc" class="w-48 h-48 md:w-72 md:h-72">
+                        <button
+                            class="animate-bounce text-xs text-black bg-white font-julius border-solid border-2 border-[#D050EF] p-1 mt-4 ml-12 md:ml-24">
+                            check it out
+                        </button>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Section 3 (Skills) -->
+            <div id="section-3" class="m-5 text-3xl text-[#D050EF] md:p-12">
+                <!-- Skills content -->
+                <h2>My Skills</h2>
+                <img src="./img/logo.png" alt="logo" class="mt-4">
+            </div>
+
+            <!-- Section 4 (Contact) -->
+            <div id="section-4" class="p-4 md:p-12">
+                <!-- Contact content -->
+                <h2 class="text-3xl text-[#D050EF]">Contact Me</h2>
+                <div class="p-4 space-y-6">
+                    <div id="contact-1" class="flex items-center">
+                        <img src="./img/linkedin-logo.png" alt="linkedin-logo" class="w-10 h-10 md:w-auto md:h-auto">
+                        <a href="http://linkedin.com/in/lee-ling-tan-086980182" target="_blank"
+                            class="p-5 font-julius text-blue-400 underline text-xl">http://linkedin.com/in/lee-ling-tan-086980182</a>
+                    </div>
+                    <div id="contact-2" class="flex items-center">
+                        <img src="./img/gmail-logo.png" alt="gmail-logo" class="w-10 h-10 md:w-auto md:h-auto">
+                        <p class="p-5 text-white text-xl font-julius">leelingtan00298@gmail.com
+
+
+  <!-- <body>
+    <div class="flex">
+      <div id="navBar" class="relative w-1/3 bg-[#26212C]">
+        <div id="navBar-content" class="mt-20 pl-20">
+          <div id="profile-img">
+            <img
+              src="./img/profile_pic.jpg"
+              alt="profile-img"
+              ƒ
+              class="rounded-full size-32"
+            />
+          </div>
+          <div id="profile-title" class="">
+            <p class="font-knewave text-xl mt-4 text-white">Tan Lee Ling</p>
+            <p class="text-white">Front End Developer</p>
+          </div>
+          <div id="navLink" class="flex flex-col mt-20">
+            <a href="#section-2" class="text-white">Projects</a>
+            <a href="#section-3" class="mt-14 text-white">Skills</a>
+            <a href="#section-4" class="mt-14 text-white">Contact</a>
+          </div>
+        </div>
+      </div>
+
+      <div id="sections" class="">
+        <div id="section-1">
+          <img
+            id="hero-img"
+            src="./img/bg.png"
+            alt="background-img"
+            class="z-0"
+          />
+          <div
+            id="hero-content"
+            class="absolute top-0 text-center p-40 z-1 text-white"
+          >
+            <p class="font-archivo text-[#D050EF] text-7xl">
+              Hello, I am Lee Ling
+            </p>
+            <p class="font-julius text-xl text-[#CBC9CB]">
+              | INTO FRONT END DEVELOPMENTS |
+            </p>
+            <p class="mt-16 text-2xl font-julius text-[#FFFFFF]">
+              A DEVELOPER WHO LOVES TO SOLVE PROBLEMS AT WORK AND IN LIFE.
+            </p>
+            <div class="mt-10">
+              <a
+                href="#section-2"
+                class="bg-[#F9DA37] border-solid border-2 border-[#64BDEF] p-2 text-black"
+                >View Portfolio</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-hero-pattern">
+          <div id="section-2" class="p-12 text-3xl text-[#D050EF]">
+            My Projects
+            <div class="flex space-x-4 mt-5">
+              <a
+                href="https://leeling02.github.io/coffee-landing-page/"
+                target="_blank"
+                class="text-white active:bg-blue-600"
+              >
+                <img src="./img/project-1.png" alt="project-sc" class="" />
+                <button
+                  class="animate-bounce text-xl text-black bg-white font-julius border-solid border-2 border-[#D050EF] p-1 m-1 ml-20 mt-4"
+                >
+                  check it out
+                </button>
+              </a>
+              <a
+                href="https://leeling02.github.io/Benefits-of-Meal-Prep/"
+                target="_blank"
+                class="text-white text-xl font-julius active:bg-blue-600"
+              >
+                <img src="./img/project-2.png" alt="project-sc" />
+                <button
+                  class="animate-bounce text-xl text-black bg-white font-julius border-solid border-2 border-[#D050EF] p-1 m-1 ml-20 mt-4"
+                >
+                  check it out
+                </button>
+              </a>
+              <a
+                href="https://www.figma.com/proto/0dZIw6pCm3OcPXT3jUg64X/Prototype?node-id=2-6&scaling=scale-down&page-id=0%3A1&mode=design&t=s8XGX0aZJlnsj5Ys-1"
+                target="_blank"
+                class="text-white active:bg-blue-600"
+              >
+                <img src="./img/project-3.png" alt="project-sc" />
+                <button
+                  class="animate-bounce text-xl text-black bg-white font-julius border-solid border-2 border-[#D050EF] p-1 m-1 ml-20 mt-4"
+                >
+                  check it out
+                </button>
+              </a>
+            </div>
+          </div>
+
+          <div id="section-3" class="p-12 text-3xl text-[#D050EF]">
+            My Skills
+            <img src="./img/logo.png" alt="logo" />
+          </div>
+
+          <div id="section-4" class="p-12">
+            <p class="text-3xl text-[#D050EF]">Contact Me</p>
+            <div class="p-4 space-y-6">
+              <div id="contact-1" class="flex">
+                <img src="./img/linkedin-logo.png" alt="linkedin-logo" />
+                <a
+                  href="http://linkedin.com/in/lee-ling-tan-086980182"
+                  target="_blank"
+                  class="p-5 font-julius text-white text-xl"
+                  >http://linkedin.com/in/lee-ling-tan-086980182</a
+                >
+              </div>
+              <div id="contact-2" class="flex">
+                <img src="./img/gmail-logo.png" alt="gmail-logo" />
+                <p class="p-5 text-white text-xl font-julius">
+                  leelingtan00298@gmail.com
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body> -->
+</html>
