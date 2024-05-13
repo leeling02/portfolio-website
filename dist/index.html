@@ -29,24 +29,20 @@
 <body class="bg-gray-900">
     <div class="flex flex-col">
         <!-- Navbar -->
-        <div id="navBar" class="bg-[#26212C]">
-            <div id="navBar-content" class="flex">
+        <div id="navBar" class="bg-[#26212C] w-full h-20">
+            <div id="navBar-content" class="flex relative w-full h-auto">
               <!-- Profile Image and Title -->
-              <div id="profile-img">
-                <img src="./img/profile_pic.jpg" alt="profile-img" class="rounded-full size-12 m-3 ml-10 mb-0 ">
+              <div>
+                <img src="./img/profile_pic.jpg" alt="profile-img" class="rounded-full size-12 m-3">
               </div>
               <!-- Navigation Links -->
-              <div class="w-28"></div>
-              <div id="navLink" class="flex m-5 ml-24 space-x-8 md:space-x-44 md:ml-56 md:mt-6 md:pl-14">
+              <div id="navLink" class="flex absolute top-1/3 right-0 mx-5 space-x-8 md:space-x-16 xl:space-x-32">
                 <a href="#section-2" class="text-white">Projects</a>
                 <a href="#section-3" class=" text-white">Skills</a>
                 <a href="#section-4" class=" text-white">Contact</a>
               </div>
             </div>
-            <div id="profile-title" class="">
-              <p class="text-xs text-left m-0 ml-2 text-white">Web Developer</p>
-              <p class="font-knewave text-sm m-0 ml-9 text-left text-white">Lee Ling</p>
-            </div>
+            
           </div>
 
         <!-- Sections -->
@@ -54,11 +50,11 @@
             <!-- Section 1 (Hero) -->
             <div id="section-1" class="relative">
                 <!-- Hero content -->
-                <img id="hero-img" src="./img/bg.png" alt="background-img" class="z-0 md:w-screen">
-                <div id="hero-content" class="absolute top-0 text-center p-4 md:p-40 z-1 text-white">
-                    <p class="font-archivo text-[#D050EF] text-4xl md:text-7xl">Hello, I am Lee Ling</p>
-                    <p class="font-julius text-base text-[#CBC9CB]">| INTO FRONT END DEVELOPMENTS |</p>
-                    <p class="mt-8 md:mt-16 text-xl md:text-2xl font-julius text-[#FFFFFF]">
+                <img id="hero-img" src="./img/bg.png" alt="background-img" class="w-full h-auto">
+                <div id="hero-content" class="w-full h-auto">
+                    <p class="font-archivo text-[#D050EF] text-3xl md:text-7xl xl:text-9xl">Hello, I am Lee Ling</p>
+                    <p class="font-julius text-base text-[#CBC9CB] md:text-3xl xl:text-5xl">| INTO FRONT END DEVELOPMENTS |</p>
+                    <p class="text-xl md:text-2xl xl:text-4xl font-julius text-[#FFFFFF]">
                         A DEVELOPER WHO LOVES TO SOLVE PROBLEMS AT WORK AND IN LIFE.
                     </p>
                     <div class="mt-8">
@@ -74,7 +70,7 @@
                 <!-- Projects content -->
                 <h2>My Projects</h2>
                 <div class="m-5 ml-28 space-x-5 md:flex md:space-y-0 md:space-x-10">
-                    <a href="https://leeling02.github.io/coffee-landing-page/" target="_blank"
+                    <a href="https://coffee-shop-landing-page.pages.dev/" target="_blank"
                         class="text-white active:bg-blue-600 items-center">
                         <img src="./img/project-1.png" alt="project-sc" class="w-48 h-48 md:w-72 md:h-72">
                         <button
@@ -82,7 +78,7 @@
                             check it out
                         </button>
                     </a>
-                    <a href="https://leeling02.github.io/Benefits-of-Meal-Prep/" target="_blank"
+                    <a href="https://benefits-of-meal-prep.pages.dev" target="_blank"
                         class="text-white text-xl font-julius active:bg-blue-600 items-center">
                         <img src="./img/project-2.png" alt="project-sc" class="w-48 h-48 md:w-72 md:h-72">
                         <button
